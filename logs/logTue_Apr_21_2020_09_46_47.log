@@ -1,0 +1,49 @@
+2020-04-21 09:46:47 INFO::Initializing logger...
+2020-04-21 09:46:47 INFO::Welcome to Dream.TK v0.8.3
+2020-04-21 09:46:47 INFO::Running on 21-04-2020 09:46:47
+2020-04-21 09:46:47 INFO::-------------------------------------------------
+2020-04-21 09:46:47 INFO::Starting function imports...
+2020-04-21 09:46:47 DEBUG::Imported ./www/busyIndicator.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_Database_MySQL.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_basicData.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_css3compss.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpolynomial.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpoulinhaddad2012.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataparser_dreamtk.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/io_import_dreamtk/killMySQLDBConnections.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/model/class_local_model.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/model/class_localmodel_css3compss.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/model/class_localmodel_fubpolynomial.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/model/class_localmodel_oed1storder.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/chemical_manager/class_chemical.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/chemical_manager/class_chemical_manager.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/chemical_manager/printFunctions.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_BasicAnalysis.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_BERAnalysis.r
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_BERData.r
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_data.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_GenTox.R
+2020-04-21 09:46:47 DEBUG::Imported ./scripts/analysis/class_analysis_MFA.R
+2020-04-21 09:46:48 DEBUG::Imported ./scripts/analysis/multiplot.R
+2020-04-21 09:46:48 DEBUG::Imported ./app/app_server.R
+2020-04-21 09:46:48 DEBUG::Imported ./app/app_support.R
+2020-04-21 09:46:48 DEBUG::Imported ./app/app_tutorial.R
+2020-04-21 09:46:48 DEBUG::Imported ./app/app_ui.R
+2020-04-21 09:46:52 INFO::Importing from R data file ...
+2020-04-21 09:46:52 INFO::Importing dreamtk v1.0 chemical data...
+2020-04-21 09:46:53 DEBUG::DataImporter.dreamtk found and loaded chemical_data data.
+2020-04-21 09:46:53 INFO::Importing dreamtk v1.0 physiology data...
+2020-04-21 09:46:54 DEBUG::DataImporter.dreamtk found and loaded physiology_data data.
+2020-04-21 09:46:54 INFO::Importing dreamtk v1.0 assay info...
+2020-04-21 09:46:55 DEBUG::DataImporter.dreamtk found and loaded ac50_data data.
+2020-04-21 09:47:00 DEBUG::DataImporter.dreamtk found and loaded assay_data data.
+2020-04-21 09:47:00 INFO::Importing from R data file ...
+2020-04-21 09:47:00 INFO::Importing dreamtk v1.0 CPDat data...
+2020-04-21 09:47:02 DEBUG::DataImporter.dreamtk found and loaded cpdat_data data.
+2020-04-21 09:47:02 INFO::Importing dreamtk v1.0 Sheds data...
+2020-04-21 09:47:03 DEBUG::DataImporter.dreamtk found and loaded shedsinfo_data data.
+2020-04-21 09:47:03 INFO::Importing GenTox21 data...
+2020-04-21 09:47:03 DEBUG::DataImporter.dreamtk found and loaded gen_tox_data data.
+2020-04-21 09:47:03 DEBUG::DataImporter.dreamtk found and loaded bmd_data data.
+2020-04-21 09:47:03 DEBUG::ChemicalManager$sortChemicalsByValueList(): Nothing to sort.

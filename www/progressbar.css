@@ -1,0 +1,71 @@
+/*
+.progress{
+  position:fixed;
+  bottom:50px;
+  left:25%;
+  width:50%;
+}
+*/
+/*
+.progress-text{
+  position:fixed;
+  bottom:60px;
+  left:25%;
+  font-size:25px;
+}
+*/
+/*
+.shiny-notification{
+  position:fixed;
+  left:-100px;
+  width:0px;
+}
+*/
+
+
+.progress-text{
+  font-size:25px;
+  color:#033175;
+}
+
+.progress-bar{
+  background-color:#0269ff;
+}
+
+#shiny-notification-panel {
+  position: fixed;
+  bottom: 50px;
+  left: 25%;
+  background-color: rgba(0,0,0,0);
+  padding: 2px;
+  width: 50%;
+  z-index: 99999;
+}
+
+.shiny-notification{
+  background-color: #d1e4ff;
+  color: #333;
+  border: 1px solid #003582;
+  border-radius: 3px;
+  opacity: 0.85;
+  padding: 10px 8px 10px 10px;
+  margin: 2px;
+}
+
+.shiny-notification-message {
+  color: #31708f;
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+}
+
+.shiny-notification-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border: 1px solid #faebcc;
+}
+
+.shiny-notification-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+}

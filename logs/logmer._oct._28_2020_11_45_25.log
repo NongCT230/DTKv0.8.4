@@ -1,0 +1,33 @@
+2020-10-28 11:45:25 INFO::Initializing logger...
+2020-10-28 11:45:25 INFO::Welcome to Dream.TK v0.8.4
+2020-10-28 11:45:25 INFO::Running on 28-10-2020 11:45:25
+2020-10-28 11:45:25 INFO::-------------------------------------------------
+2020-10-28 11:45:25 INFO::Starting function imports...
+2020-10-28 11:45:25 DEBUG::Imported ./www/busyIndicator.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_Database_MySQL.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_basicData.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_css3compss.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpolynomial.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpoulinhaddad2012.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataparser_dreamtk.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/io_import_dreamtk/killMySQLDBConnections.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/model/class_local_model.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/model/class_localmodel_css3compss.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/model/class_localmodel_fubpolynomial.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/model/class_localmodel_oed1storder.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/chemical_manager/class_chemical.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/chemical_manager/class_chemical_manager.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/chemical_manager/printFunctions.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_BasicAnalysis.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_BERAnalysis.r
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_BERData.r
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_data.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_GenTox.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/class_analysis_MFA.R
+2020-10-28 11:45:26 DEBUG::Imported ./scripts/analysis/multiplot.R
+2020-10-28 11:45:26 DEBUG::Imported ./app/app_server.R
+2020-10-28 11:45:26 DEBUG::Imported ./app/app_server_old.R
+2020-10-28 11:45:26 DEBUG::Imported ./app/app_support.R
+2020-10-28 11:45:26 DEBUG::Imported ./app/app_tutorial.R
+2020-10-28 11:45:26 DEBUG::Imported ./app/app_ui.R

@@ -1,0 +1,586 @@
+2020-04-15 16:20:17 INFO::Initializing logger...
+2020-04-15 16:20:17 INFO::Welcome to Dream.TK v0.8.0
+2020-04-15 16:20:17 INFO::Running on 15-04-2020 16:20:17
+2020-04-15 16:20:17 INFO::-------------------------------------------------
+2020-04-15 16:20:17 INFO::Starting function imports...
+2020-04-15 16:20:17 DEBUG::Imported ./www/busyIndicator.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_Database_MySQL.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_basicData.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_css3compss.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpolynomial.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpoulinhaddad2012.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataparser_dreamtk.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/io_import_dreamtk/killMySQLDBConnections.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/model/class_local_model.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/model/class_localmodel_css3compss.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/model/class_localmodel_fubpolynomial.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/model/class_localmodel_oed1storder.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/chemical_manager/class_chemical.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/chemical_manager/class_chemical_manager.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/chemical_manager/printFunctions.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_BasicAnalysis.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_BERAnalysis.r
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_BERData.r
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_data.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_GenTox.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/class_analysis_MFA.R
+2020-04-15 16:20:17 DEBUG::Imported ./scripts/analysis/multiplot.R
+2020-04-15 16:20:17 DEBUG::Imported ./app/app_server.R
+2020-04-15 16:20:17 DEBUG::Imported ./app/app_support.R
+2020-04-15 16:20:17 DEBUG::Imported ./app/app_tutorial.R
+2020-04-15 16:20:17 DEBUG::Imported ./app/app_ui.R
+2020-04-15 16:20:21 INFO::Importing from R data file ...
+2020-04-15 16:20:21 INFO::Importing dreamtk v1.0 chemical data...
+2020-04-15 16:20:22 DEBUG::DataImporter.dreamtk found and loaded chemical_data data.
+2020-04-15 16:20:22 INFO::Importing dreamtk v1.0 physiology data...
+2020-04-15 16:20:23 DEBUG::DataImporter.dreamtk found and loaded physiology_data data.
+2020-04-15 16:20:23 INFO::Importing dreamtk v1.0 assay info...
+2020-04-15 16:20:24 DEBUG::DataImporter.dreamtk found and loaded ac50_data data.
+2020-04-15 16:20:28 DEBUG::DataImporter.dreamtk found and loaded assay_data data.
+2020-04-15 16:20:29 INFO::Importing from R data file ...
+2020-04-15 16:20:29 INFO::Importing dreamtk v1.0 CPDat data...
+2020-04-15 16:20:30 DEBUG::DataImporter.dreamtk found and loaded cpdat_data data.
+2020-04-15 16:20:30 INFO::Importing dreamtk v1.0 Sheds data...
+2020-04-15 16:20:31 DEBUG::DataImporter.dreamtk found and loaded shedsinfo_data data.
+2020-04-15 16:20:31 INFO::Importing GenTox21 data...
+2020-04-15 16:20:31 DEBUG::DataImporter.dreamtk found and loaded gen_tox_data data.
+2020-04-15 16:20:31 DEBUG::DataImporter.dreamtk found and loaded bmd_data data.
+2020-04-15 16:20:31 DEBUG::ChemicalManager$sortChemicalsByValueList(): Nothing to sort.
+2020-04-15 16:20:57 INFO::Importing dreamtk v1.0 3compss model data from RData file...
+2020-04-15 16:20:58 DEBUG::DataImporter.dreamtk found and loaded model_3css_data data.
+2020-04-15 16:20:58 INFO::Importing dreamtk v1.0 FubPolynomial model data from RData file...
+2020-04-15 16:20:58 DEBUG::DataImporter.dreamtk found and loaded kow_data data.
+2020-04-15 16:20:59 DEBUG::DataImporter.dreamtk found and loaded pka_data data.
+2020-04-15 16:21:00 DEBUG::Parsing chemical list...
+2020-04-15 16:21:00 WARNING::ChemicalManager$removeChemicals(): No character vector for casn provided. Nothing removed!
+2020-04-15 16:21:00 DEBUG::ChemicalManager$addChemical(): Added valid Chemicals from list.
+2020-04-15 16:21:00 WARNING::dataimporter.dreamtk.3compss$setModelData(): data set and locked. Use $resetModelData() to unlock, to be able to $loadModelData() from source specified by $setSource().
+2020-04-15 16:21:00 WARNING::dataimporter.dreamtk.fubpolynomial$setModelData(): data set and locked. Use $resetModelData() to unlock, to be able to $loadModelData() from source specified by $setSource().
+2020-04-15 16:21:00 WARNING::dataimporter.dreamtk.3compss$loadModelData(): data not imported from source specified by $setSource() since it is locked by $setModelData(). Use $resetModelData() to unlock.
+2020-04-15 16:21:00 INFO::LocalModel$getAttachedModel(): Found attached model to return.
+2020-04-15 16:21:00 WARNING::dataimporter.dreamtk.fubpolynomial$loadModelData(): data not imported from source specified by $setSource() since it is locked by $setModelData(). Use $resetModelData() to unlock.
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 3697-42-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 57-85-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 52-01-7
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 500-38-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 6358-53-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 97-18-7
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 61702-44-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 53-43-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 66575-29-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 84878-61-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 26538-44-3
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 148-79-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 2919-66-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 102-98-7
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 2835-99-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 141-94-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 95-84-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 25999-20-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 719-59-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 2748-88-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 117704-25-3
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 611-75-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 99-57-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 522-51-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 55134-13-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 145-13-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 2224-49-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 113507-06-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 87-18-3
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 101831-37-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 132-69-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 73-31-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 404-86-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 330-95-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 103055-07-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 3599-32-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 84366-81-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 1641-17-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 130-95-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 2040-10-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 85-19-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 1570-64-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 3564-09-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 90274-24-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 153-61-7
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 148-01-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 1322-14-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 85264-33-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 93106-60-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 83-43-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 10161-34-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 21245-01-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 73231-34-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 85-70-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 306-94-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 74610-55-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 120066-54-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 1778-02-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 141-86-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 31282-04-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 51781-21-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 303-98-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 91-68-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 56038-13-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 530-43-8
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 104-98-3
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 4991-65-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 116-38-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 122-11-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 14639-25-9
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 501-30-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 362-74-3
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 522-48-5
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 137-88-2
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 102-29-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 108050-54-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 1315-04-4
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 18507-89-6
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 54182-58-0
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating 3 compartment steady state Css values for 60-31-1
+2020-04-15 16:21:00 INFO::Css: Success!
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 3697-42-5
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::3697-42-5: OED values calculated and saved to oed.1storder. 223 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 57-85-2
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::57-85-2: OED values calculated and saved to oed.1storder. 169 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 52-01-7
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::52-01-7: OED values calculated and saved to oed.1storder. 108 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 500-38-9
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::500-38-9: OED values calculated and saved to oed.1storder. 106 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 6358-53-8
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::6358-53-8: OED values calculated and saved to oed.1storder. 66 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 97-18-7
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::97-18-7: OED values calculated and saved to oed.1storder. 85 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 61702-44-1
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::61702-44-1: OED values calculated and saved to oed.1storder. 78 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 53-43-0
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::53-43-0: OED values calculated and saved to oed.1storder. 43 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 66575-29-9
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::66575-29-9: OED values calculated and saved to oed.1storder. 47 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 84878-61-5
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::84878-61-5: OED values calculated and saved to oed.1storder. 65 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 26538-44-3
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::26538-44-3: OED values calculated and saved to oed.1storder. 44 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 148-79-8
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::148-79-8: OED values calculated and saved to oed.1storder. 32 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 2919-66-6
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::2919-66-6: OED values calculated and saved to oed.1storder. 50 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 102-98-7
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::102-98-7: OED values calculated and saved to oed.1storder. 47 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 2835-99-6
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::2835-99-6: OED values calculated and saved to oed.1storder. 41 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 141-94-6
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::141-94-6: OED values calculated and saved to oed.1storder. 43 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 95-84-1
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::95-84-1: OED values calculated and saved to oed.1storder. 41 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 25999-20-6
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::25999-20-6: OED values calculated and saved to oed.1storder. 35 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 719-59-5
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::719-59-5: OED values calculated and saved to oed.1storder. 23 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 2748-88-1
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::2748-88-1: OED values calculated and saved to oed.1storder. 21 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 117704-25-3
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::117704-25-3: OED values calculated and saved to oed.1storder. 27 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 611-75-6
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::611-75-6: OED values calculated and saved to oed.1storder. 27 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 99-57-0
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::99-57-0: OED values calculated and saved to oed.1storder. 22 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 522-51-0
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::522-51-0: OED values calculated and saved to oed.1storder. 11 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 55134-13-9
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::55134-13-9: OED values calculated and saved to oed.1storder. 24 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 145-13-1
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::145-13-1: OED values calculated and saved to oed.1storder. 11 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 2224-49-9
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::2224-49-9: OED values calculated and saved to oed.1storder. 16 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 113507-06-5
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::113507-06-5: OED values calculated and saved to oed.1storder. 35 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 87-18-3
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::87-18-3: OED values calculated and saved to oed.1storder. 30 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 101831-37-2
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::101831-37-2: OED values calculated and saved to oed.1storder. 15 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 132-69-4
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::132-69-4: OED values calculated and saved to oed.1storder. 17 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 73-31-4
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::73-31-4: OED values calculated and saved to oed.1storder. 7 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 404-86-4
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::404-86-4: OED values calculated and saved to oed.1storder. 19 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 330-95-0
+2020-04-15 16:21:00 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:00 INFO::330-95-0: OED values calculated and saved to oed.1storder. 8 values saved.
+2020-04-15 16:21:00 INFO::Calculating Oral Equivalent Doses for 103055-07-8
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::103055-07-8: OED values calculated and saved to oed.1storder. 19 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 3599-32-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::3599-32-4: OED values calculated and saved to oed.1storder. 7 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 84366-81-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::84366-81-4: OED values calculated and saved to oed.1storder. 6 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 1641-17-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::1641-17-4: OED values calculated and saved to oed.1storder. 10 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 130-95-0
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::130-95-0: OED values calculated and saved to oed.1storder. 4 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 2040-10-0
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::2040-10-0: OED values calculated and saved to oed.1storder. 9 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 85-19-8
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::85-19-8: OED values calculated and saved to oed.1storder. 10 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 1570-64-5
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::1570-64-5: OED values calculated and saved to oed.1storder. 11 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 3564-09-8
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::3564-09-8: OED values calculated and saved to oed.1storder. 1 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 90274-24-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::90274-24-1: OED values calculated and saved to oed.1storder. 1 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 153-61-7
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::153-61-7: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 148-01-6
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::148-01-6: OED values calculated and saved to oed.1storder. 2 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 1322-14-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 1322-14-1. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 85264-33-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::85264-33-1: OED values calculated and saved to oed.1storder. 5 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 93106-60-6
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::93106-60-6: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 83-43-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::83-43-2: OED values calculated and saved to oed.1storder. 11 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 10161-34-9
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::10161-34-9: OED values calculated and saved to oed.1storder. 9 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 21245-01-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::21245-01-2: OED values calculated and saved to oed.1storder. 7 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 73231-34-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::73231-34-2: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 85-70-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::85-70-1: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 306-94-5
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::306-94-5: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 74610-55-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::74610-55-2: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 120066-54-8
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::120066-54-8: OED values calculated and saved to oed.1storder. 4 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 1778-02-5
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::1778-02-5: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 141-86-6
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::141-86-6: OED values calculated and saved to oed.1storder. 3 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 31282-04-9
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::31282-04-9: OED values calculated and saved to oed.1storder. 1 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 51781-21-6
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::51781-21-6: OED values calculated and saved to oed.1storder. 1 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 303-98-0
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::303-98-0: OED values calculated and saved to oed.1storder. 5 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 91-68-9
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::91-68-9: OED values calculated and saved to oed.1storder. 4 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 56038-13-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::56038-13-2: OED values calculated and saved to oed.1storder. 2 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 530-43-8
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 INFO::530-43-8: OED values calculated and saved to oed.1storder. 2 values saved.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 104-98-3
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 104-98-3. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 4991-65-5
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 4991-65-5. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 116-38-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 116-38-1. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 122-11-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 122-11-2. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 14639-25-9
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 14639-25-9. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 501-30-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 501-30-4. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 362-74-3
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 362-74-3. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 522-48-5
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 522-48-5. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 137-88-2
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 137-88-2. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 102-29-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 102-29-4. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 108050-54-0
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 108050-54-0. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 1315-04-4
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 1315-04-4. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 18507-89-6
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 18507-89-6. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 54182-58-0
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 54182-58-0. Results are NA.
+2020-04-15 16:21:01 INFO::Calculating Oral Equivalent Doses for 60-31-1
+2020-04-15 16:21:01 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-15 16:21:01 WARNING::No above-threshold activity data is available for 60-31-1. Results are NA.
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::calculateMinAc50() warning:simpleWarning in min(valid_ac50$ac50, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 DEBUG::Chemical list selection warning:simpleWarning in min(valid_oed, na.rm = TRUE): no non-missing arguments to min; returning Inf
+2020-04-15 16:21:01 WARNING::dataimporter.dreamtk.3compss$resetModelData(): data reset and unlocked. $loadModelData() is now functional.
+2020-04-15 16:21:01 WARNING::dataimporter.dreamtk.fubpolynomial$resetModelData(): data reset and unlocked. $loadModelData() is now functional.
+2020-04-15 16:21:01 WARNING::ChemicalManager$getListOfChemicalsByName(): No character vector for names provided. Empty list returned!
+2020-04-15 16:21:01 WARNING::ChemicalManager$getListOfChemicals(): No character vector for casn provided. Empty list returned!
+2020-04-15 16:21:10 DEBUG::No assay information found for 137-88-2
+2020-04-15 16:21:10 DEBUG::No assay information found for 1315-04-4
+2020-04-15 16:21:10 DEBUG::No assay information found for 362-74-3
+2020-04-15 16:21:11 DEBUG::No assay information found for 14639-25-9
+2020-04-15 16:21:11 DEBUG::No assay information found for 18507-89-6
+2020-04-15 16:21:11 DEBUG::No assay information found for 116-38-1
+2020-04-15 16:21:11 DEBUG::No assay information found for 501-30-4
+2020-04-15 16:21:11 DEBUG::No assay information found for 54182-58-0
+2020-04-15 16:21:11 DEBUG::No assay information found for 122-11-2
+2020-04-15 16:21:11 DEBUG::No assay information found for 522-48-5
+2020-04-15 16:21:11 DEBUG::No assay information found for 104-98-3
+2020-04-15 16:22:09 INFO::Building GeneTox table
+2020-04-15 16:22:09 WARNING::None of the selected chemicals were found with this model type

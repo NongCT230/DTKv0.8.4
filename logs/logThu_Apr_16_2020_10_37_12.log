@@ -1,0 +1,78 @@
+2020-04-16 10:37:12 INFO::Initializing logger...
+2020-04-16 10:37:12 INFO::Welcome to Dream.TK v0.8.0
+2020-04-16 10:37:12 INFO::Running on 16-04-2020 10:37:12
+2020-04-16 10:37:12 INFO::-------------------------------------------------
+2020-04-16 10:37:12 INFO::Starting function imports...
+2020-04-16 10:37:13 DEBUG::Imported ./www/busyIndicator.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_Database_MySQL.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_basicData.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_css3compss.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpolynomial.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataimporter_dreamtk_fubpoulinhaddad2012.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/class_dataparser_dreamtk.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/io_import_dreamtk/killMySQLDBConnections.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/model/class_local_model.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/model/class_localmodel_css3compss.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/model/class_localmodel_fubpolynomial.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/model/class_localmodel_oed1storder.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/chemical_manager/class_chemical.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/chemical_manager/class_chemical_manager.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/chemical_manager/printFunctions.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_BasicAnalysis.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_BERAnalysis.r
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_BERData.r
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_data.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_GenTox.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/class_analysis_MFA.R
+2020-04-16 10:37:13 DEBUG::Imported ./scripts/analysis/multiplot.R
+2020-04-16 10:37:13 DEBUG::Imported ./app/app_server.R
+2020-04-16 10:37:13 DEBUG::Imported ./app/app_support.R
+2020-04-16 10:37:13 DEBUG::Imported ./app/app_tutorial.R
+2020-04-16 10:37:13 DEBUG::Imported ./app/app_ui.R
+2020-04-16 10:37:16 INFO::Importing from R data file ...
+2020-04-16 10:37:16 INFO::Importing dreamtk v1.0 chemical data...
+2020-04-16 10:37:17 DEBUG::DataImporter.dreamtk found and loaded chemical_data data.
+2020-04-16 10:37:17 INFO::Importing dreamtk v1.0 physiology data...
+2020-04-16 10:37:18 DEBUG::DataImporter.dreamtk found and loaded physiology_data data.
+2020-04-16 10:37:18 INFO::Importing dreamtk v1.0 assay info...
+2020-04-16 10:37:19 DEBUG::DataImporter.dreamtk found and loaded ac50_data data.
+2020-04-16 10:37:23 DEBUG::DataImporter.dreamtk found and loaded assay_data data.
+2020-04-16 10:37:23 INFO::Importing from R data file ...
+2020-04-16 10:37:23 INFO::Importing dreamtk v1.0 CPDat data...
+2020-04-16 10:37:24 DEBUG::DataImporter.dreamtk found and loaded cpdat_data data.
+2020-04-16 10:37:24 INFO::Importing dreamtk v1.0 Sheds data...
+2020-04-16 10:37:25 DEBUG::DataImporter.dreamtk found and loaded shedsinfo_data data.
+2020-04-16 10:37:25 INFO::Importing GenTox21 data...
+2020-04-16 10:37:25 DEBUG::DataImporter.dreamtk found and loaded gen_tox_data data.
+2020-04-16 10:37:25 DEBUG::DataImporter.dreamtk found and loaded bmd_data data.
+2020-04-16 10:37:25 DEBUG::ChemicalManager$sortChemicalsByValueList(): Nothing to sort.
+2020-04-16 10:38:27 DEBUG::Parsing chemical list...
+2020-04-16 10:38:27 DEBUG::ChemicalManager$addChemical(): Added valid Chemicals from list.
+2020-04-16 10:38:27 INFO::Importing dreamtk v1.0 3compss model data from RData file...
+2020-04-16 10:38:27 DEBUG::DataImporter.dreamtk found and loaded model_3css_data data.
+2020-04-16 10:38:27 INFO::LocalModel$getAttachedModel(): Found attached model to return.
+2020-04-16 10:38:27 INFO::Importing dreamtk v1.0 FubPolynomial model data from RData file...
+2020-04-16 10:38:28 DEBUG::DataImporter.dreamtk found and loaded kow_data data.
+2020-04-16 10:38:29 DEBUG::DataImporter.dreamtk found and loaded pka_data data.
+2020-04-16 10:38:29 INFO::Calculating 3 compartment steady state Css values for 33419-42-0
+2020-04-16 10:38:29 INFO::Css: Success!
+2020-04-16 10:38:29 INFO::Calculating Oral Equivalent Doses for 33419-42-0
+2020-04-16 10:38:29 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-16 10:38:29 INFO::33419-42-0: OED values calculated and saved to oed.1storder. 46 values saved.
+2020-04-16 10:38:29 WARNING::ChemicalManager$getListOfChemicalsByName(): No character vector for names provided. Empty list returned!
+2020-04-16 10:38:29 WARNING::ChemicalManager$getListOfChemicals(): No character vector for casn provided. Empty list returned!
+2020-04-16 10:38:37 DEBUG::Parsing chemical list...
+2020-04-16 10:38:37 DEBUG::ChemicalManager$addChemical(): Added valid Chemicals from list.
+2020-04-16 10:38:37 INFO::LocalModel$getAttachedModel(): Found attached model to return.
+2020-04-16 10:38:37 INFO::Calculating 3 compartment steady state Css values for 759-73-9
+2020-04-16 10:38:37 INFO::Css: Success!
+2020-04-16 10:38:37 INFO::Calculating Oral Equivalent Doses for 759-73-9
+2020-04-16 10:38:37 WARNING::LocalModel.OED1storder$getAc50FromChemical(): Ac50 values below cutoff were ignored. 
+                OED for these assays will be NA.
+2020-04-16 10:38:37 INFO::759-73-9: OED values calculated and saved to oed.1storder. 1 values saved.
+2020-04-16 10:38:37 WARNING::ChemicalManager$getListOfChemicalsByName(): No character vector for names provided. Empty list returned!
+2020-04-16 10:38:37 WARNING::ChemicalManager$getListOfChemicals(): No character vector for casn provided. Empty list returned!
+2020-04-16 10:38:51 INFO::Building GeneTox table
+2020-04-16 10:38:52 INFO::Creating GeneTox plots
